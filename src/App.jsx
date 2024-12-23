@@ -19,6 +19,7 @@ const darkTheme = createTheme({
     background: {
       default: '#121212',
     },
+    
   },
 });
 const lightTheme = createTheme({
@@ -27,6 +28,9 @@ const lightTheme = createTheme({
     background: {
       default: '#ffffff', 
     },
+    text:{
+      primary: '#023047',
+    }
   },
 });
 
