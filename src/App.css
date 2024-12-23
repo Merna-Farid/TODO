@@ -1,0 +1,63 @@
+
+.List{
+    width: 70vw;
+    height:100vh;
+    
+}
+
+.Todos{
+    text-align: center;
+}
+
+#theme {
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto; 
+    height: auto; 
+    border-radius: 3.5rem; 
+    border: none; 
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 1rem; 
+    color: #333;
+}
+
+#theme:hover {
+    background-color:  #e0e0e033;
+   
+
+}
+#theme:active{
+    border: none;
+    background-color:  #e0e0e033;
+}
+.form{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 2rem auto;
+}
+
+.section{
+    margin:2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    width: 100%;
+}
+
+.section div{
+    margin: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6rem; 
+    height: 2rem;
+    border-radius: 0.5rem; 
+
+}
+.section div:hover{
+    background-color: #e0e0e033;
+}
