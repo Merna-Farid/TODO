@@ -74,7 +74,7 @@ export default function TodoList() {
       <Sections completed={completed} allTodos={allTodos}/>
       <h2>Completed Todos</h2>
         {completedTodos.map((todo) => (
-          <TodoItem key={todo.id} todo={todo} remove={removeTodo} toggel={handleToggle} />
+          <TodoItem lineThrough={true} key={todo.id} todo={todo} remove={removeTodo} toggel={handleToggle} />
         ))}
       </div>
     </Box>
